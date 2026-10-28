@@ -1,6 +1,6 @@
 import fastf1
 
-schedule = fastf1.get_event_schedule(2021)
+schedule = fastf1.get_event_schedule(2024)
 
 print(schedule)
 print()
