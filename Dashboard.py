@@ -8,4 +8,4 @@ st.title("Calendario della stagione 2026")
 
 st.dataframe(schedule)
 
-#st.write(schedule.columns)
+scelta = st.text_input("Scegli una data")
