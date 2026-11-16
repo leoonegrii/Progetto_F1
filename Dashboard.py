@@ -1,5 +1,5 @@
-import streamlit as st
 import fastf1
+import streamlit as st
 
 schedule = fastf1.get_event_schedule(2026) #caricamento del calendario della stagione 2026
 st.set_page_config(layout="wide")
